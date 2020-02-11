@@ -1,0 +1,60 @@
+module.exports = {
+  derivePath: "m/44'/145'/0'/0/",
+  realMoney: true, // To debug transactions without spending Utxos
+  rest: "https://rest.bitcoin.com/v2/",
+  mnemonic:
+    "",
+  changeAddr: "",
+  mintWallet: {
+    addr: ""
+  },
+  bchWallet: {
+    mnemonic:
+      "",
+    addr: ""
+  },
+  slpWallet: {
+    mnemonic:
+      "",
+    addr: "",
+    bchChangeReceiverAddr:
+      "",
+    wif: ""
+  },
+  slpTokens: {
+    train4: "8af9bd430f13c04f834ea8e10e6b9366edf237bc81df4a13366244d9814993ac",
+    spice: "4de69e374a8ed21cbddd47f2338cc0f479dc58daa2bbe11cd604ca488eca0ddf",
+    honk: "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1"
+  },
+  slpReceivers: {
+    badger: "",
+    badgerMobile: "",
+    mint: "",
+    self: ""
+  },
+  bchReceivers: {
+    badger: ""
+  },
+  sweepableWallets: [
+    {
+      addr: "",
+      wif: ""
+    },
+    {
+      addr: "",
+      wif: ""
+    },
+    {
+      addr: "",
+      wif: ""
+    },
+    {
+      addr: "",
+      wif: ""
+    },
+    {
+      addr: "",
+      wif: ""
+    },    
+  ]
+};

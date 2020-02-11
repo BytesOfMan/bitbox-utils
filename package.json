@@ -12,6 +12,6 @@
     "bitbox-sdk": "^8.11.2",
     "request": "^2.88.0",
     "request-promise": "^4.2.5",
-    "slp-sdk": "^4.15.0"
+    "slp-sdk": "file://../../josephroyking/slp-sdk"
   }
 }
